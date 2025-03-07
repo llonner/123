@@ -1,0 +1,125 @@
+/* ----------- Адаптив главной страницы-----------*/
+
+@media (max-width: 1645px) {
+	.navbar a {
+		display: none;
+	}
+	.navbar .nav-button {
+		display: block;
+	}
+
+	.nav-menu {
+		display: block;
+	}
+}
+
+@media (max-width: 810px) {
+	.header {
+		padding: 12px 22px;
+	}
+	.logo {
+		font-size: 22px;
+	}
+
+	.open {
+		top: 85%;
+	}
+
+	.nav-menu {
+		left: 2rem;
+		width: unset;
+	}
+}
+
+@media (max-width: 1561px) {
+	.slider .item .content {
+		background-color: #161616;
+		height: 55%;
+	}
+
+	.slider .item::before {
+		top: 20%;
+	}
+}
+
+@media (max-width: 1400px) {
+	.item .content .title {
+		font-size: 40px;
+		font-weight: 700;
+	}
+
+	.item .content .description {
+		font-size: 27px;
+		margin-top: 20px;
+		font-weight: 600;
+	}
+
+	.item .content .button {
+		font-size: 25px;
+	}
+
+	.slider .item::before {
+		width: 30%;
+		z-index: 99999999999;
+	}
+
+	.slider-nav button {
+		top: unset;
+		bottom: -30px;
+		background: none;
+	}
+
+	.slider-nav button:hover {
+		background: none;
+	}
+
+	.pagination .indicator {
+		width: 250px;
+	}
+}
+
+@media (max-width: 870px) {
+	.slider .item::before {
+		display: none;
+	}
+
+	.slider .item .content {
+		width: 100%;
+	}
+
+	.item .content .title {
+		font-size: 40px;
+		font-weight: 700;
+	}
+
+	.item .content .description {
+		font-size: 32px;
+		margin-top: 20px;
+		font-weight: 600;
+	}
+
+	.item .content .button {
+		font-size: 28px;
+		margin-top: 14px;
+	}
+}
+
+@media (max-width: 713px) {
+	.slider .item .content {
+		bottom: 10%;
+	}
+	.item .content .title {
+		font-size: 35px;
+		font-weight: 700;
+	}
+
+	.item .content .description {
+		font-size: 28px;
+		margin-top: 20px;
+		font-weight: 600;
+	}
+
+	.item .content .button {
+		font-size: 25px;
+	}
+}
