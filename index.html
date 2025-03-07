@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/media.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="icon" href="images/icon.jpg" type="image/x-icon" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+			integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<title>Главная страница</title>
+	</head>
+	<body>
+		<!--------- Шапка сайта ---------->
+		<header class="header">
+			<span>
+				<a class="logo" href="index.html">Выбор профессии или специальности</a>
+			</span>
+			<nav class="navbar">
+				<a href="professions.html">О профессиях и специальностях</a>
+				<a href="skills.html">Навыки</a>
+				<a href="university.html">Образовательные учреждения</a>
+				<a href="test.html">Тест</a>
+				<div class="nav-button">
+					<i class="fa-solid fa-bars"></i>
+				</div>
+			</nav>
+			<div class="nav-menu">
+				<li><a href="index.html">Главная страница</a></li>
+				<li><a href="professions.html">О профессиях и специальностях</a></li>
+				<li><a href="skills.html">Навыки</a></li>
+				<li><a href="university.html">Образовательные учреждения</a></li>
+				<li><a href="test.html">Тест</a></li>
+			</div>
+		</header>
+		<!-------- Основная часть страницы --------->
+		<div class="main">
+			<div class="slider swiper-wrapper">
+				<!-- Первый слайд -->
+				<div class="item swiper-slide">
+					<div class="content">
+						<h2 class="title">О профессиях и специальностях</h2>
+							<ul>
+								<li class='title_des'>В этом разделе ты узнаешь:</li>
+								<li class='des_li'>Что важно учесть при выборе профессии</li>
+								<li class='des_li'>Как выбрать профессию</li>
+								<li class='des_li'>Ошибки при выборе профессии</li>
+							</ul>
+							<a href="" class="button"><span>Узнать больше</span></a>
+						</p>
+					</div>
+				</div>
+				<!-- Второй слайд -->
+				<div class="item swiper-slide">
+					<div class="content">
+						<h2 class="title">Навыки</h2>
+						<ul>
+							<li class='title_des'>В этом разделе ты узнаешь:</li>
+							<li class='des_li'>Почему навыки нужно развивать уже сейчас</li>
+							<li class='des_li'>Какие навыки нужно развивать</li>
+							<li class='des_li'>Как эти навыки развивать</li>
+						</ul>
+						<a href="" class="button"><span>Узнать больше</span></a>
+					</div>
+				</div>
+				<!-- Третий слайд -->
+				<div class="item swiper-slide">
+					<div class="content">
+						<h2 class="title">Образовательные учреждения</h2>
+						<ul>
+							<li class='title_des'>В этом разделе ты узнаешь:</li>
+							<li class='des_li'>Как выбрать ВУЗ</li>
+							<li class='des_li'>Подготовка к поступлению в ВУЗ</li>
+							<li class='des_li'>Топ 7-профессий на будущее</li>
+						</ul>
+						<a href="" class="button"><span>Узнать больше</span></a>
+					</div>
+				</div>
+				<!-- Четвертый слайд -->
+				<div class="item swiper-slide">
+					<div class="content">
+						<h2 class="title">Тест</h2>
+						<ul>
+							<li class='title_des'>В этом разделе ты узнаешь:</li>
+							<li class='des_li'>Что такое профориентация</li>
+							<li class='des_li'>В чем польза теста на профориентацию</li>
+							<li class='des_li'>Предварительную профессию</li>
+						</ul>
+						<a href="" class="button"><span>Узнать больше</span></a>
+					</div>
+				</div>
+			</div>
+			<div class="controls">
+				<ul class="pagination">
+					<div class="indicator"></div>
+					<li class="tab">Профессии и специальности</li>
+					<li class="tab">Навыки</li>
+					<li class="tab">Образовательные учреждения</li>
+					<li class="tab">Тест</li>
+				</ul>
+			</div>
+			<div class="slider-nav">
+				<button id="slider-prev" class="material-symbols-rounded">
+					arrow_left_alt
+				</button>
+				<button id="slider-next" class="material-symbols-rounded">
+					arrow_right_alt
+				</button>
+			</div>
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
